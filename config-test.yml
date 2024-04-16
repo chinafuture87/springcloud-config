@@ -1,2 +1,4 @@
+server:
+  port: 7788
 config:
-    info: bbbbbbbbbbbbbbbbbb,version=5
+  info: bbbbbbbbbbbbbbbbbb,version=6
