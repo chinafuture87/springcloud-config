@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "Name": "Deutsch (Deutschland)",
+  "Name": "English (India)",
   "Mappings": [
     {
       "On": [{ }],
@@ -14,15 +14,15 @@
         "Menu": "Alt",
         "LMenu": "Alt",
         "RMenu": "Alt",
-
+        
         "Shift": "Shift",
         "ShiftKey": "Shift",
         "LShiftKey": "Shift",
         "RShiftKey": "Shift",
-
+        
         "LWin": "Win",
         "RWin": "Win",
-
+        
         "D0": "0",
         "D1": "1",
         "D2": "2",
@@ -33,7 +33,7 @@
         "D7": "7",
         "D8": "8",
         "D9": "9",
-
+        
         "NumPad0": "0",
         "NumPad1": "1",
         "NumPad2": "2",
@@ -44,26 +44,26 @@
         "NumPad7": "7",
         "NumPad8": "8",
         "NumPad9": "9",
-
+        
         "Escape": "Esc",
         "Back": "Backspace",
-
+        
         "PageUp": "Pg Up",
         "PageDown": "Pg Dn",
-
+        
         "Left": "Left",
         "Right": "Right",
         "Up": "Up",
         "Down": "Down",
-
+        
         "PrintScreen": "Prt Sc",
         "Insert": "Ins",
         "Delete": "Del",
-
+        
         "VolumeDown": "Vol -",
         "VolumeUp": "Vol +",
         "VolumeMute": "Mute",
-
+        
         "BrowserBack": "Browser Back",
         "BrowserForward": "Browser Forward",
         "BrowserRefresh": "Browser Refresh",
@@ -71,77 +71,60 @@
         "BrowserSearch": "Browser Search",
         "BrowserFavorites": "Browser Favourites",
         "BrowserHome": "Browser Home",
-
+        
         "MediaNextTrack": "Next Track",
         "MediaPreviousTrack": "Prev Track",
         "MediaStop": "Stop",
         "MediaPlayPause": "Play / Pause",
         "SelectMedia": "Select Media",
-
+        
         "LaunchMail": "Launch Mail",
-
+        
         "Multiply": "*",
         "Add": "+",
         "Subtract": "-",
         "Divide": "/",
-        "Decimal": "."  ,
+        "Decimal": ".",
         "NumLock": "NumLock",
-
-        "Oemtilde": "ö",
+        
+        "Oemtilde": "`",
         "OemMinus": "-",
-        "Oemplus": "+",
+        "Oemplus": "=",
         "OemCloseBrackets": "]",
-        "OemOpenBrackets": "ß",
-        "OemPipe": "^",
+        "OemOpenBrackets": "[",
+        "OemPipe": "\\",
+        "OemQuotes": "'",
+        "OemSemicolon": ";",
         "OemPeriod": ".",
         "Oemcomma": ",",
-        "Oem102": "<",
-        "Oem2": "#",
-        "Oem6": "´",
-        "Oem7": "ä",
-        "Oem1": "ü"
+        "OemQuestion": "/"
       }
     },
     {
       "On": [{ "Shift": true }],
-      "Keys": {
-        "OemOpenBrackets": "?",
-        "Oem6": "`",
-        "Oem2": "'",
-        "OemPipe": "°",
-        "D0": "=",
+      "Keys": {        
+        "D0": ")",
         "D1": "!",
-        "D2": "\"",
-        "D3": "§",
+        "D2": "@",
+        "D3": "#",
         "D4": "$",
         "D5": "%",
-        "D6": "&",
-        "D7": "/",
-        "D8": "(",
-        "D9": ")",
-
-        "Oemtilde": "Ö",
+        "D6": "^",
+        "D7": "&",
+        "D8": "*",
+        "D9": "(",
+        
+        "Oemtilde": "~",
         "OemMinus": "_",
+        "Oemplus": "+",
+        "OemCloseBrackets": "}",
+        "OemOpenBrackets": "{",
+        "OemPipe": "|",
         "OemQuotes": "\"",
         "OemSemicolon": ":",
-        "OemPeriod": ":",
-        "Oemcomma": ";",
-        "Oem102": ">",
-        "Oemplus": "*",
-        "Oem7": "Ä",
-        "Oem1": "Ü"
-      }
-    },
-    {
-      "On": [{ "Control": true, "Alt": true }],
-      "Keys": {
-        "Oem102": "|",
-        "Oemplus": "~",
-        "D7": "{",
-        "D8": "[",
-        "D9": "]",
-        "D0": "}",
-        "Q": "@"
+        "OemPeriod": ">",
+        "Oemcomma": "<",
+        "OemQuestion": "?"
       }
     },
     {
@@ -210,6 +193,65 @@
         "X": "x",
         "Y": "y",
         "Z": "z"
+      }
+    },
+    {
+      "On": [
+        { "Control": true, "Shift": true },
+        { "Control": true, "Alt": true }
+      ],
+      "Keys": {
+        "D4": "₹"
+      }
+    },
+    {
+      "On": [
+        { "Control": true, "Alt": true },
+        { "Control": true, "Alt": true, "Shift": true, "CapsLock": true }
+      ],
+      "Keys": {
+        "Q": "æ",
+        "E": "ē",
+        "R": "r̥",
+        "T": "ṭ",
+        "Y": "ñ",
+        "U": "ū",
+        "I": "ī",
+        "O": "ō",
+        "A": "ā",
+        "S": "ś",
+        "D": "ḍ",
+        "G": "ṅ",
+        "H": "ḥ",
+        "L": "l̥",
+        "X": "ṣ",
+        "N": "ṇ",
+        "M": "ṁ"
+      }
+    },
+    {
+      "On": [
+        { "Control": true, "Alt": true, "Shift": true },
+        { "Control": true, "Alt": true, "CapsLock": true }
+      ],
+      "Keys": {
+        "Q": "Æ",
+        "E": "Ē",
+        "R": "R̥",
+        "T": "Ṭ",
+        "Y": "Ñ",
+        "U": "Ū",
+        "I": "Ī",
+        "O": "Ō",
+        "A": "Ā",
+        "S": "Ś",
+        "D": "Ḍ",
+        "G": "Ṅ",
+        "H": "Ḥ",
+        "L": "L̥",
+        "X": "Ṣ",
+        "N": "Ṇ",
+        "M": "Ṁ"
       }
     }
   ]
